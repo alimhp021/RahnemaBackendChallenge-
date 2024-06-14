@@ -1,0 +1,13 @@
+Step 1:
+
+docker pull collegedev/interview_task:test
+docker run --platform linux/arm64 -it collegedev/interview_task:test   
+
+Please enter your name: Ali Mahdipour
+Your password is 'U2FsdGVkX1/I8KpYg/tJDPOSxLu8HMcWUghPzXdj/l0='
+
+Step 2:
+
+docker build -t my_node_app .
+docker run my_node_app
+
